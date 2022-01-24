@@ -31,7 +31,7 @@ function sorting(arrNumber) {
     for (var i = 0; i < arrNumber.length; i++) {
         angka[i] = Number(arrNumber[i])
     }
-    for (var i = 0; i < angka.length; i++) {
+    for (var i = 0; i < angka.length - 1; i++) {
         min = i
         for (var j = i + 1; j < angka.length; j++) {
             if (angka[j] < angka[min]) {
